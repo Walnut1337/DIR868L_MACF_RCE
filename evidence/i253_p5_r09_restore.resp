@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: WebServer
+Date: Sat, 21 Nov 2026 09:38:59 GMT
+Transfer-Encoding: chunked
+Connection: close
+Content-Type: text/xml; charset=utf-8
+
+197
+<?xml version='1.0' encoding='utf-8'?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <SetMACFilters2Response xmlns="http://purenetworks.com/HNAP1/">
+      <SetMACFilters2Result>OK</SetMACFilters2Result>
+    </SetMACFilters2Response>
+  </soap:Body>
+</soap:Envelope>
+
+0
+

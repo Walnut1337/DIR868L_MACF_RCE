@@ -1,0 +1,10 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.0.1
+Content-Type: text/xml; charset=utf-8
+Content-Length: 318
+SOAPAction: "http://purenetworks.com/HNAP1/GetMACFilters2"
+HNAP_AUTH: 057E408C0FCD8A32FCD797F7982602C1 1795253942
+Cookie: uid=i253r09
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><GetMACFilters2 xmlns="http://purenetworks.com/HNAP1/"></GetMACFilters2></soap:Body></soap:Envelope>

@@ -1,0 +1,22 @@
+DIR868L-MACF-RCE — evidence hashes
+==================================
+
+Firmware:
+  9af5829b628d6274f4a7fe8f3926aaa7cc51760579aa4fa117c384f96b44a2c5  DIR868LB1_FW203b01.bin
+
+Components:
+  5f1ffc092862aeabc91d0c972bcf50449b652869387085db5a87f1f91e21f8a1  etc/templates/hnap/SetMACFilters2.php
+  93a6dd74e631393f56b7bdc2c9346d4e1f835228b42abe0cdd09da9edbe2d627  etc/services/IPTMACCTRL.php
+  3cf13db5e1f0960d9ae0b0378496cafbf978157c4d50363f9fb5c58de42fbd43  htdocs/phplib/fatlady/MACCTRL.php
+  70c1f4c8e9b5a80d5cc504e465eb879f29de1db636c961f370a0805dc53603ee  htdocs/cgibin (154628 bytes)
+
+PoC:
+  a95e6aac1357608be3a9e51922cb0255110c1ff1dd592dde3bf91ae224a73811  poc_DIR868L_MACF_RCE.py
+
+Physical evidence:
+  ba80380e0d83b7b03e3f3235b99c594356b3d3a5184097a194338f0d02dc2311  r09_full_20261121.gif (1008 bytes)
+  f900d9a08021d12072d21af1b614ad3b18b67267390eacf57f9d0eec91ad2156  i278_fetch_r09_evidence.gif (1008 bytes)
+
+Note: this public repository includes the full physical evidence and hashes
+without redaction, as requested by the researcher. The /etc/shadow samples
+come from the researcher's own end-of-life test unit.
